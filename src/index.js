@@ -1,7 +1,7 @@
 module.exports = function check(str, bracketsConfig) {
   let array = str.split('');
   let bracket = bracketsConfig;
-  for(let i=0;i<arr.length;i++){
+  for(let i=0;i<array.length;i++){
     
     for(let j=0; j<bracket.length; j++){
       if(array[i] === bracket[j][0] && array[i+1] === bracket[j][1]){
